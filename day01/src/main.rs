@@ -52,8 +52,6 @@ fn part_one(array1: &mut Vec<i32>, array2: &mut Vec<i32>) {
         } else {
             diff += num1 - num2
         }
-
-        println!("{}, {}, {}", num1, num2, diff);
          
         index += 1;
     };    
